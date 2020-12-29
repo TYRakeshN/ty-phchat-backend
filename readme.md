@@ -18,7 +18,7 @@ npm start
 # Get started 
 
 ## Register User
-``` url: https://ty-chat-app.herokuapp.com/register 
+```  https://ty-chat-app.herokuapp.com/register 
 method: post
 ```
 
