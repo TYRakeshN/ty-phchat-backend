@@ -22,4 +22,26 @@ npm start
 https://ty-chat-app.herokuapp.com/register 
 method: post
 ```
-
+## User Login
+```
+https://ty-chat-app.herokuapp.com/users/login
+method: post
+```
+## Get Users
+```
+https://ty-chat-app.herokuapp.com/users
+method: get
+headers: authorization => Bearer token
+```
+## Get Messages
+```
+https://ty-chat-app.herokuapp.com/messages?sender=senderID&receiver=receiverID
+method: get
+headers: authorization => Bearer token
+```
+## Send Message
+```
+https://ty-chat-app.herokuapp.com/messages
+method: post
+headers: authorization => Bearer token
+```
