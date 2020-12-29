@@ -15,4 +15,10 @@ npm install
 ```bash
 npm start
 ```
+## get started 
+
+# Register User
+```url: https://ty-chat-app.herokuapp.com/register 
+method: post
+```
 
